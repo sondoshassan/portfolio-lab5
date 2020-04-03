@@ -573,7 +573,32 @@ background-color: #e8edec;
                 line-height: 2.25em;
             }
 }
-@media screen and (max-width: 960px) {
+@media screen and (min-width:736px) and (max-width:960){
+    ul.icons li a {
+        width: 1.75em;
+    }
+    #logo .image {
+        position: relative;
+        margin: 0 0 0.5em 0;
+    }
+
+    #nav ul li a {
+        font-size: 0.8em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+    }
+
+        #nav ul li a span {
+            padding-right: 2.25em;
+        }
+
+            #nav ul li a span:before {
+                left: 100%;
+                margin-left: -1.25em;
+                line-height: 2.25em;
+            }
+}
+@media screen and (max-width: 736px) {
 	.item {
         margin-bottom: 15px;
     }

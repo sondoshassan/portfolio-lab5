@@ -560,7 +560,28 @@ font-size: 0.8em;
 #headerToggle {
     display: none;
 }
-@media screen and (max-width: 960px) {
+@media screen and (min-width: 736px) and (max-width: 960px){
+    .item {
+        margin-bottom: 20px;
+    }
+
+/* Header */
+
+    #header {
+        width: 35%;
+    }
+    #footer {
+        margin-left: 20%;
+    }
+
+/* Main */
+
+    #main {
+        margin-left: 35%;
+    }
+
+}
+@media screen and (max-width: 736px) {
 	#header {
         -moz-backface-visibility: hidden;
         -webkit-backface-visibility: hidden;
