@@ -14,6 +14,8 @@ line-height: 1.5em;
 h2 {
 font-size: 2em;
 letter-spacing: -1px;
+font-family: 'Roboto', sans-serif;
+
 }
 
 h2.alt {
@@ -535,6 +537,8 @@ font-size: 0.8em;
 
     #main {
         margin-left: 300px;
+font-family: 'Roboto', sans-serif;
+
     }
 }
 @media screen and (min-width: 961px) and (max-width: 1320px) {
@@ -647,3 +651,11 @@ font-size: 0.8em;
         margin-left: 0;
     }
 }
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
