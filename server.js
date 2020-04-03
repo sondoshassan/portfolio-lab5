@@ -3,6 +3,7 @@
 const express = require('express');
 const server = express();
 const PORT = process.env.PORT || 3000;
+server.use(express.static('./public'));
 // http://localhost:3000/test
 server.get('/test',(request,response)=>{
     response.send('Hello World');
@@ -15,7 +16,8 @@ server.get('/data',(request,response)=>{
     ];
     response.json(arrayObject);
 });
-server.use(express('./public'));
+
+
 server.listen(PORT,() =>{
     console.log('listening on', PORT);
 });
