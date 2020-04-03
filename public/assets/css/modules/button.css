@@ -3,7 +3,7 @@ input[type="button"],
 	input[type="reset"],
 	button,
 	.button {
-		position: relative;
+		/* position: relative; */
 		display: inline-block;
 		border-radius: 0.35em;
 		color: #fff !important;
