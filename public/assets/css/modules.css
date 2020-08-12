@@ -716,3 +716,44 @@ body.header-visible #header {
             margin-top: 0;
         }
 }
+
+.card-img-top {
+    width: 49% !important;
+    min-height: 29px;
+    margin: auto;
+    margin-top: 10%;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    width: fit-content;
+    /* width: 13% !important; */
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 6rem;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    width: 6rem !important;
+    margin: auto 2%;
+}
+.card-body {
+    -ms-flex: 1 1 auto;
+    /* flex: 1 auto; */
+    min-height: 1px;
+    min-width: fit-content;
+    /* padding: 1rem; */
+    padding-top: 0.5rem;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.75em !important;
+}
+.cont-skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
